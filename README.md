@@ -1,1 +1,3 @@
-# Stroke Outcomes Prediction Model
+# Stroke Outcomes Using Logistic Regression
+
+For segment 1 of the group project, I used Logistic Regression modeling to predict the likelyhood if a patient had a stroke or not.  Because logistic regression predictis binary answers, it's a good tool to use since we are looking for Yes or No answers to understand the possibiliy of a stroke.  Three datasets were used to run the test, actual data sample, random oversampling and SMOTEENN sampling.  Based on the accuracy of the results, I determined that using the actual data sample offered the best outcome for machine learning when using Logistic regression. 
