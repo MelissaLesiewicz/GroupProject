@@ -9,22 +9,22 @@ The dataset contains a combination of medical data and non-medical lifestyle dat
 Of course, this model is not intended for any medical use, but merely high level analysis of the limited data we have available, to find if there are any interesting correlations for stroke outcomes within the data categories of this set.
 
 
-# Data Used
+## Data Used
 
 Kaggle Stroke Prediction dataset: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
 
-# Technologies Used
-## Data Cleaning and Analysis
+## Technologies Used
+### Data Cleaning and Analysis
 Pandas will be used to clean the data, split the data (training and tsting) and Further data analysis will be completed using Python.
 
-## Database Storage
+### Database Storage
 Postgress SQL is the database we intend to use.
 
-## Machine Learning
+### Machine Learning
 SciKitLearn & Tensowflow are the ML library we'll be using to create a classifier. Our training and testing setup is over/undersampled to mitigate an umbalanced dataset.
 
-## Dashboard
+### Dashboard
 Tableau visuals and story telling functionality will be used to provide user interactivity and identified insights.
 
-## Stretch Goal
+### Stretch Goal
 Set up a webpage using Javascript forms to allow users to enter their medical, personal and lifestyle data to how likely the would be to have a stroke.
