@@ -12,6 +12,8 @@ Of course, this model is not intended for any medical use, but merely high level
 ## Data Used
 
 Kaggle Stroke Prediction dataset: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
+Sample of our dataset:
+![Dataset Sample](https://user-images.githubusercontent.com/86027932/141658648-af4c5735-01f1-40b6-97e3-1f8d88a5c3f1.PNG)
 
 ## Technologies Used
 ### Data Cleaning and Analysis
@@ -19,6 +21,8 @@ Pandas will be used to clean the data, split the data (training and tsting) and 
 
 ### Database Storage
 Postgress SQL is the database we intend to use.
+Database ERD:
+![QuickDBD-export](https://user-images.githubusercontent.com/86027932/141658675-42095895-4ae5-43ff-af67-31071984344a.png)
 
 ### Machine Learning
 SciKitLearn & Tensowflow are the ML library we'll be using to create a classifier. Our training and testing setup is over/undersampled to mitigate an umbalanced dataset.
@@ -28,3 +32,6 @@ Tableau visuals and story telling functionality will be used to provide user int
 
 ### Stretch Goal
 Set up a webpage using Javascript forms to allow users to enter their medical, personal and lifestyle data to how likely the would be to have a stroke.
+
+### Presentation
+https://docs.google.com/presentation/d/1vC_XtYIOsB0pjBaotyLygCcyrjDMaYhZc4R6myExGRU/edit?usp=sharing
