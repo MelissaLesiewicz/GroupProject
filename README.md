@@ -8,6 +8,10 @@ The dataset contains a combination of medical data and non-medical lifestyle dat
 
 Of course, this model is not intended for any medical use, but merely high level analysis of the limited data we have available, to find if there are any interesting correlations for stroke outcomes within the data categories of this set.
 
+## Communication
+Initial team meeting via Zoom. Discussued project requirements and assigned individual responsibilities.
+Weekly team meetings via Zoom occur twice per week during our scheduled class time.
+Team communication via Slack as needed to update team members of progress and to ask for assistance.
 
 ## Data Used
 
@@ -33,5 +37,5 @@ Tableau visuals and story telling functionality will be used to provide user int
 ### Stretch Goal
 Set up a webpage using Javascript forms to allow users to enter their medical, personal and lifestyle data to how likely the would be to have a stroke.
 
-### Presentation
+## Presentation
 https://docs.google.com/presentation/d/1vC_XtYIOsB0pjBaotyLygCcyrjDMaYhZc4R6myExGRU/edit?usp=sharing
