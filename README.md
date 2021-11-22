@@ -1,4 +1,23 @@
+### GitHub structure
+#### Home
 
+
+***files:**
+- *Hypothesis_Test.ipynb*: Hypothesis T-Test.
+- *Project Report.docx*: Word document describing the project.
+- *Stroke Prediction Dashboard PDF.pdf*: pdf copy of our Tableau Story Telling Dashboard.
+- *Stroke Prediction Project.twbx*: Copy of our Tableau public Dashboad.
+- *Chosen_MachineLearning_model_optimized.ipynb*: Selected model optimization: sklearn pipeline and GridSearchCV.
+- *User_Stroke_Prediction_ML_model.ipynb*: Python script to enter your data and predict your stroke likelihood.
+
+***folders:**
+- *DataProcessing*: Data preprocessing script to explore, clean and insert data into AWS PostgreSQL database.
+- *DataSampling*: Data sampling techniques utilized for Machine Learning models.
+- *Database*: Entity Relationship Diagram files.
+- *EDA*: Exploratory Data Analysis.
+- *Images*: Readme, reports and presentation images.
+- *Machine_Learning_Models*: Training, Testing and assessment of all the ML models generated for this project.
+- *Resources*: All dataset imported and generated for EDA, Sampling and Machine Learning models.
 
 # Stroke Outcomes Prediction Model
 
@@ -28,7 +47,7 @@ classifier: Logistic Regression
 **performance:**
 - Accuracy: 0.87
 - F1 Scores: 0.87/0.87
-- Area under the courve (AuC): 0.9364
+- Area under the curve (AuC): 0.9364
 
 ![Logistic Refression Stats](https://github.com/MelissaLesiewicz/GroupProject/blob/main/Images/LogisticRegression_AUC_0.93.png)
 
@@ -51,6 +70,11 @@ or
 
 script reference: https://github.com/MelissaLesiewicz/GroupProject/blob/main/User_Stroke_Prediction_ML_model.ipynb
 
+
+# Communication
+Initial team meeting via Zoom. Discussued project requirements and assigned individual responsibilities.
+Weekly team meetings via Zoom occur twice per week during our scheduled class time.
+Team communication via Slack as needed to update team members of progress and to ask for assistance.
 
 # Data Used
 
@@ -87,6 +111,10 @@ SciKitLearn & Tensowflow are the ML library we'll be using to create a classifie
 Tableau visuals and story telling functionality will be used to provide user interactivity and identified insights.
 
 - Tableau public: https://public.tableau.com/shared/KFC9TY33W?:display_count=n&:origin=viz_share_link
+
+![Stroke Story Telling](https://github.com/MelissaLesiewicz/GroupProject/blob/main/Images/Tableau_Dashboard.png)
+
+
 
 # Presentation
 https://docs.google.com/presentation/d/1vC_XtYIOsB0pjBaotyLygCcyrjDMaYhZc4R6myExGRU/edit?usp=sharing
