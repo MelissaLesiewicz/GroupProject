@@ -10,6 +10,19 @@ Of course, this model is not intended for any medical use, but merely high level
 
 ## Hypothesis
 
+- How do the non-medical factors impact our model’s accuracy, precision, and recall?
+Is a high average blood glucose level a good indicator of stroke risk?
+
+- *Null hypothesis(Ho)*: High average blood glucose levels do not indicate stroke outcomes.
+- *Alternate Hypothesis(Ha)*: Patients with high average blood glucose levels are more likely to suffer a stroke.
+
+### T-Test results
+
+**pvalue=2.872279057752545e-21 rejects Ho** hence patients with high average blood glucose are likely to suffer a stroke
+
+
+script reference: https://github.com/MelissaLesiewicz/GroupProject/blob/main/Hypothesis_Test.ipynb
+
 ## Our winning model 
 classifier: Logistic Regression
 **performance:**
