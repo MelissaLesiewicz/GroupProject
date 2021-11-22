@@ -52,11 +52,6 @@ or
 script reference: https://github.com/MelissaLesiewicz/GroupProject/blob/main/User_Stroke_Prediction_ML_model.ipynb
 
 
-# Communication
-Initial team meeting via Zoom. Discussued project requirements and assigned individual responsibilities.
-Weekly team meetings via Zoom occur twice per week during our scheduled class time.
-Team communication via Slack as needed to update team members of progress and to ask for assistance.
-
 # Data Used
 
 Kaggle Stroke Prediction dataset: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
