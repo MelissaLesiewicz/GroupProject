@@ -75,8 +75,9 @@ Pandas will be used to clean the data, split the data (training and tsting) and 
 Database ERD:
 ![QuickDBD-export](https://user-images.githubusercontent.com/86027932/141658675-42095895-4ae5-43ff-af67-31071984344a.png)
 
-SQL script:
+SQL script: https://github.com/MelissaLesiewicz/GroupProject/blob/main/Database/ERD_DB_creation.sql
 
+**Tools:**
 - Database Enginge:PostgreSQL 12.8 and pgAdmin 4 
 - Hosted in Amazon Web Services (AWS)
 - Python libraries & drivers: sqlalchemy and psycopg2
