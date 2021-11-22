@@ -8,34 +8,76 @@ The dataset contains a combination of medical data and non-medical lifestyle dat
 
 Of course, this model is not intended for any medical use, but merely high level analysis of the limited data we have available, to find if there are any interesting correlations for stroke outcomes within the data categories of this set.
 
-## Communication
+## Hypothesis
+
+## Our winning model 
+classifier: Logistic Regression
+**performance:**
+- Accuracy: 0.87
+- F1 Scores: 0.87/0.87
+- Area under the courve (AuC): 0.9364
+
+![Logistic Refression Stats](https://github.com/MelissaLesiewicz/GroupProject/blob/main/Images/LogisticRegression_AUC_0.93.png)
+
+
+## Stretch Goal
+Allow users to enter their medical, personal and lifestyle data to how likely the would be to have a stroke.
+
+### Python script 
+
+User input for stroke prediction:
+
+![User Input](https://github.com/MelissaLesiewicz/GroupProject/blob/main/Images/ML_model_UserInput.png)
+
+Output:
+
+- **Very likely to have a stroke**
+or
+- Unlikely to have a stroke
+
+
+script reference: https://github.com/MelissaLesiewicz/GroupProject/blob/main/User_Stroke_Prediction_ML_model.ipynb
+
+
+# Communication
 Initial team meeting via Zoom. Discussued project requirements and assigned individual responsibilities.
 Weekly team meetings via Zoom occur twice per week during our scheduled class time.
 Team communication via Slack as needed to update team members of progress and to ask for assistance.
 
-## Data Used
+# Data Used
 
 Kaggle Stroke Prediction dataset: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
 Sample of our dataset:
 ![Dataset Sample](https://user-images.githubusercontent.com/86027932/141658648-af4c5735-01f1-40b6-97e3-1f8d88a5c3f1.PNG)
 
-## Technologies Used
-### Data Cleaning and Analysis
+# Technologies Used
+
+## Data Cleaning and Analysis
 Pandas will be used to clean the data, split the data (training and tsting) and Further data analysis will be completed using Python.
 
-### Database Storage
-Postgress SQL is the database we intend to use.
+- Exploratory Data Analysis: pandas, matplotlib, seaborn
+
+## Database Storage
+
 Database ERD:
 ![QuickDBD-export](https://user-images.githubusercontent.com/86027932/141658675-42095895-4ae5-43ff-af67-31071984344a.png)
 
-### Machine Learning
+SQL script:
+
+- Database Enginge:PostgreSQL 12.8 and pgAdmin 4 
+- Hosted in Amazon Web Services (AWS)
+- Python libraries & drivers: sqlalchemy and psycopg2
+
+## Machine Learning
 SciKitLearn & Tensowflow are the ML library we'll be using to create a classifier. Our training and testing setup is over/undersampled to mitigate an umbalanced dataset.
 
-### Dashboard
+- ML models: numpy, sklearn and tensorflow 
+- Save persisten objects (models, scalers): joblib
+
+## Dashboard
 Tableau visuals and story telling functionality will be used to provide user interactivity and identified insights.
 
-### Stretch Goal
-Set up a webpage using Javascript forms to allow users to enter their medical, personal and lifestyle data to how likely the would be to have a stroke.
+- Tableau public: https://public.tableau.com/shared/KFC9TY33W?:display_count=n&:origin=viz_share_link
 
-## Presentation
+# Presentation
 https://docs.google.com/presentation/d/1vC_XtYIOsB0pjBaotyLygCcyrjDMaYhZc4R6myExGRU/edit?usp=sharing
