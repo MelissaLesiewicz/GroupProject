@@ -7,7 +7,6 @@
 - *Project Report.docx*: Word document describing the project.
 - *Stroke Prediction Dashboard PDF.pdf*: pdf copy of our Tableau Story Telling Dashboard.
 - *Stroke Prediction Project.twbx*: Copy of our Tableau public Dashboad.
-- *Chosen_MachineLearning_model_optimized.ipynb*: Selected model optimization: sklearn pipeline and GridSearchCV.
 - *User_Stroke_Prediction_ML_model.ipynb*: Python script to enter your data and predict your stroke likelihood.
 
 ***folders:**
@@ -71,11 +70,6 @@ or
 script reference: https://github.com/MelissaLesiewicz/GroupProject/blob/main/User_Stroke_Prediction_ML_model.ipynb
 
 
-# Communication
-Initial team meeting via Zoom. Discussued project requirements and assigned individual responsibilities.
-Weekly team meetings via Zoom occur twice per week during our scheduled class time.
-Team communication via Slack as needed to update team members of progress and to ask for assistance.
-
 # Data Used
 
 Kaggle Stroke Prediction dataset: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
@@ -110,7 +104,7 @@ SciKitLearn & Tensowflow are the ML library we'll be using to create a classifie
 ## Dashboard
 Tableau visuals and story telling functionality will be used to provide user interactivity and identified insights.
 
-- Tableau public: https://public.tableau.com/shared/KFC9TY33W?:display_count=n&:origin=viz_share_link
+- Tableau public: https://public.tableau.com/app/profile/cory.knuth/viz/StrokePredictionProjectFinal/Story
 
 ![Stroke Story Telling](https://github.com/MelissaLesiewicz/GroupProject/blob/main/Images/Tableau_Dashboard.png)
 
