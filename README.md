@@ -36,7 +36,7 @@ Is a high average blood glucose level a good indicator of stroke risk?
 
 ### T-Test results
 
-**pvalue=2.872279057752545e-21 rejects Ho** hence patients with high average blood glucose are likely to suffer a stroke
+**pvalue=2.87e-21 rejects Ho** hence patients with high average blood glucose are likely to suffer a stroke
 
 
 script reference: https://github.com/MelissaLesiewicz/GroupProject/blob/main/Hypothesis_Test.ipynb
@@ -105,6 +105,7 @@ SciKitLearn & Tensowflow are the ML library we'll be using to create a classifie
 Tableau visuals and story telling functionality will be used to provide user interactivity and identified insights.
 
 - Tableau public: https://public.tableau.com/app/profile/cory.knuth/viz/StrokePredictionProjectFinal/Story
+
 
 ![Stroke Story Telling](https://github.com/MelissaLesiewicz/GroupProject/blob/main/Images/Tableau_Dashboard.png)
 
